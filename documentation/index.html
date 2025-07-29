@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>所有documentation - 仰泳的鱼</title><meta name="author" content="仰泳的鱼">
+<meta name="description" content="">
+  <meta itemprop="name" content="Documentations">
+  <meta itemprop="datePublished" content="2025-07-27T17:06:00+08:00">
+  <meta itemprop="dateModified" content="2025-07-27T17:13:07+08:00"><meta property="og:url" content="http://localhost:1313/documentation/">
+  <meta property="og:site_name" content="仰泳的鱼">
+  <meta property="og:title" content="Documentations">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Documentations">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/documentation/" title="Documentations - 仰泳的鱼" /><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/documentation/index.xml" title="Documentations - 仰泳的鱼"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script src="/js/head/color-scheme.min.js"></script>
+ 
+<link rel="stylesheet" href="/css/hightlight/atom-one-dark.css">
+<script src="/js/hightlight/highlight.js"></script>
+<script>hljs.highlightAll();</script>
+
+
+
+
+
+
+<script>
+hljs.configure({
+  ignoreUnescapedHTML: true,  
+  throwUnescapedHTML: false   
+});
+</script>
+
+
+<style>
+ 
+.highlight {
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border: 1px solid #333;
+  color: #636262 !important;  
+
+   
+  .table-wrapper,
+  .table-wrapper table,
+  .table-wrapper tr,
+  .table-wrapper td,
+  pre,
+  code {
+    background: #1e1e1e !important;
+  }
+
+   
+  .table-wrapper {
+    pre {
+      color: #d4d4d4;  
+      background: transparent !important;
+      margin: 0;
+      padding: 1rem;
+       
+      font-size: 0.9em;
+      line-height: 1.6;
+      tab-size: 4;
+
+      code {
+        background: transparent !important;
+        color: inherit;  
+      }
+    }
+
+     
+    td:first-child pre {
+      background: #1e1e1e !important;
+      color: #858585 !important;
+      padding-right: 12px !important;
+       
+      margin-right: 8px;
+    }
+  }
+
+   
+   
+  .c, .cm, .c1, .cs { color: #6A9955; font-style: italic; }
+   
+  .k, .kd, .kt { color: #569CD6; }
+   
+  .s, .sb, .sc, .sd, .s2, .sh, .sx { color: #CE9178; }
+   
+  .mi, .mf { color: #B5CEA8; }
+   
+  .nf { color: #DCDCAA; }
+   
+  .nv, .vc, .vg, .vi { color: #9CDCFE; }
+   
+  .o, .ow { color: #D4D4D4; }
+}
+
+ 
+.code-header {
+  display: flex;
+  align-items: center;
+  padding: 3px 12px;
+  background: #252526;
+  color: #d4d4d4;
+  font-size: 13px;
+  border-bottom: 1px solid #333;
+  user-select: none;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 8px;
+  }
+
+   
+  .fold-button {
+    background: none;
+    border: none;
+    color: #858585;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.2s;
+
+    &:hover {
+      background: rgba(121, 121, 121, 0.4);
+      color: #858585;
+    }
+
+    i {
+      font-size: 14px;
+      transition: transform 0.2s;
+    }
+  }
+
+   
+  .language-tag {
+    background: rgba(90, 93, 94, 0.5);
+    color: #d4d4d4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: capitalize;
+
+     
+     
+    &.bash, &.sh, &.shell, &.zsh, &.cli {
+        background: #89e05133;
+        color: #89e051;
+    }
+    
+     
+    &.python, &.py {
+        background: #3572A533;
+        color: #3572A5;
+    }
+    
+     
+    &.javascript, &.js, &.typescript, &.ts {
+        background: #f1e05a33;
+        color: #f1e05a;
+    }
+    
+     
+    &.html, &.css, &.scss, &.less {
+        background: #e34c2633;
+        color: #e34c26;
+    }
+    
+     
+    &.java {
+        background: #5382a133;
+        color: #5382a1;
+    }
+    
+     
+    &.c, &.cpp, &.cplusplus {
+        background: #00599c33;
+        color: #00599c;
+    }
+    
+     
+    &.go, &.golang {
+        background: #00add833;
+        color: #00add8;
+    }
+    
+     
+    &.rust, &.rs {
+        background: #dea58433;
+        color: #dea584;
+    }
+    
+     
+    &.sql, &.mysql, &.postgresql {
+        background: #00758f33;
+        color: #00758f;
+    }
+    
+     
+    &.ruby, &.rb {
+        background: #70151633;
+        color: #701516;
+    }
+    &.php {
+        background: #777bb333;
+        color: #777bb3;
+    }
+    &.swift {
+        background: #fa734333;
+        color: #fa7343;
+    }
+    &.kotlin {
+        background: #7f52ff33;
+        color: #7f52ff;
+    }
+  }
+
+   
+  .filename {
+    color: #d4d4d4;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+
+   
+  .copy-button {
+    background: none;
+    border: none;
+    color: #858585;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.2s;
+
+    &:hover {
+      background: rgba(121, 121, 121, 0.4);
+      color: #858585; */
+    }
+
+    &.copied {
+      color: #858585;
+    }
+  }
+}
+
+ 
+.highlight.collapsed {
+  .fold-button i {
+    transform: rotate(-90deg);
+  }
+
+  .table-wrapper {
+    display: none;
+  }
+}
+
+
+ 
+.highlight,
+.highlight pre,
+.highlight code {
+  color: #858585 !important;  
+}
+
+
+ 
+code {
+  background-color: #2fd9f7 !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.highlight').forEach(function(block) {
+    
+    let language = 'text';
+    const codeElement = block.querySelector('code[class*="language-"]');
+    if (codeElement) {
+      for (const className of codeElement.classList) {
+        if (className.startsWith('language-')) {
+          language = className.replace('language-', '');
+          break;
+        }
+      }
+    }
+    
+    
+    const filename = block.dataset.filename || block.getAttribute('title') || '';
+    
+    
+    const header = document.createElement('div');
+    header.className = 'code-header';
+    header.innerHTML = `
+      <div class="header-left">
+        <button class="fold-button" title="折叠/展开代码">
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <span class="language-tag ${language}">${language}</span>
+        ${filename ? `<span class="filename">${filename}</span>` : ''}
+      </div>
+      <button class="copy-button" title="复制代码">
+        <i class="far fa-copy"></i>
+      </button>
+    `;
+    
+    
+    block.insertBefore(header, block.firstChild);
+    
+    
+    const foldButton = header.querySelector('.fold-button');
+    const tableWrapper = block.querySelector('.table-wrapper');
+    
+    foldButton.addEventListener('click', function(e) {
+      e.stopPropagation();
+      block.classList.toggle('collapsed');
+    });
+    
+    
+    const copyButton = header.querySelector('.copy-button');
+    copyButton.addEventListener('click', function(e) {
+      e.stopPropagation();
+      
+      
+      const codeContent = block.querySelector('.table-wrapper td:last-child code');
+      const code = codeContent ? codeContent.textContent : '';
+      
+      navigator.clipboard.writeText(code).then(function() {
+        copyButton.classList.add('copied');
+        copyButton.title = '已复制';
+        const icon = copyButton.querySelector('i');
+        icon.classList.replace('fa-copy', 'fa-check');
+        
+        setTimeout(() => {
+          copyButton.classList.remove('copied');
+          copyButton.title = '复制代码';
+          icon.classList.replace('fa-check', 'fa-copy');
+        }, 2000);
+      });
+    });
+  });
+});
+</script><style>
+ 
+.table-wrapper {
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+   
+  table {
+    width: 100%;
+    font-size: 0.925rem;
+    border-collapse: separate;  
+    border-spacing: 0;
+    margin: 0;
+    background-color: transparent;  
+
+     
+    > thead > tr > th {
+      background-color: #a7a7a7;
+      color: #0a0a0a;
+      border: none !important;  
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      vertical-align: middle;
+      position: relative;
+      
+       
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 1px #e9ecef;
+        border-style: none solid solid none;
+        border-top: none;
+        pointer-events: none;
+      }
+
+       
+      &:first-child {
+        border-top-left-radius: 8px;
+        &::before {
+          border-left: none;
+          border-top-left-radius: 8px;
+        }
+      }
+
+      &:last-child {
+        border-top-right-radius: 8px;
+        &::before {
+          border-right: none;
+          border-top-right-radius: 8px;
+        }
+      }
+    }
+
+     
+    > tbody > tr {
+      transition: background-color 0.2s ease;
+
+      > td {
+        padding: 0.625rem 1rem;
+        border-top: 1px solid #e9ecef;
+        vertical-align: middle;
+      }
+
+      &:hover > td {
+        background-color: #d1d1d3;
+      }
+    }
+
+
+     
+    &.table-bordered {
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      overflow: hidden;
+
+      > thead > tr > th,
+      > tbody > tr > td {
+        border: 1px solid #e9ecef;
+      }
+
+       
+      > thead > tr > th:first-child {
+        border-top-left-radius: 7px;
+      }
+
+      > thead > tr > th:last-child {
+        border-top-right-radius: 7px;
+      }
+    }
+  }
+
+   
+  @media (max-width: 768px) {
+    table.table-bordered {
+      border: 0;
+
+      > thead > tr > th,
+      > tbody > tr > td {
+        &:first-child {
+          border-left: 0;
+        }
+
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
+}
+</style><script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const backToTop = document.createElement('div');
+    backToTop.id = 'back-to-top';
+    backToTop.innerHTML = '<i class="fas fa-arrow-up"></i><span class="progress-percent">0%</span>';
+    document.body.appendChild(backToTop);
+    
+    
+    const style = document.createElement('style');
+    style.textContent = `
+        #back-to-top {
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            width: 50px;
+            height: 30px;
+            padding: 0 15px;
+            background: #D1D1D3;
+            border-radius: 20px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            border: 1px solid var(--card-border-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        #back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        #back-to-top i {
+            font-size: 16px;
+            color: var(--primary-color);
+            transition: transform 0.2s ease;
+        }
+        #back-to-top:hover i {
+            transform: translateY(-2px);
+        }
+        #back-to-top .progress-percent {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+        #back-to-top:hover {
+            background: #A7A7A7;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+    `;
+    document.head.appendChild(style);
+    
+    
+    window.addEventListener('scroll', function() {
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrollPercent = scrollTop / scrollHeight * 100;
+        
+        
+        const percentElement = backToTop.querySelector('.progress-percent');
+        percentElement.textContent = Math.round(scrollPercent) + '%';
+        
+        
+        if (scrollTop > 200) {
+            backToTop.classList.add('show');
+        } else {
+            backToTop.classList.remove('show');
+        }
+    });
+    
+    
+    backToTop.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+</script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="仰泳的鱼"><img class="logo" src='/icon/favicon.svg' alt="仰泳的鱼" height="32" width="32"><span class="header-title-text">仰泳的鱼</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/" title="分类"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/" title="标签"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item">
+              <a class="menu-link" href="/collections/" title="合集"><i class="fa-solid fa-layer-group fa-fw me-1 fa-fw fa-sm" aria-hidden="true"></i> 合集</a></li><li class="menu-item">
+              <a class="menu-link" href="/about" title="关于"><i class="fas fa-user fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item">
+              <a class="menu-link" href="/friends/" title="友链"><i class="fas fa-link fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="仰泳的鱼"><img class="logo" src='/icon/favicon.svg' alt="仰泳的鱼" height="26" width="26"><span class="header-title-text">仰泳的鱼</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item"><a class="menu-link" href="/categories/" title="分类"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item"><a class="menu-link" href="/tags/" title="标签"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item"><a class="menu-link" href="/collections/" title="合集"><i class="fa-solid fa-layer-group fa-fw me-1 fa-fw fa-sm" aria-hidden="true"></i> 合集</a></li><li class="menu-item"><a class="menu-link" href="/about" title="关于"><i class="fas fa-user fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item"><a class="menu-link" href="/friends/" title="友链"><i class="fas fa-link fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item menu-system">
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container"><div class="page archive">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster"><i class="fa-solid fa-feather fa-fw me-1" aria-hidden="true"></i>所有documentation <sup>1</sup>
+      </h1><p class="single-subtitle total-word-count" title='总计约 4424 字'><i class="fa-regular fa-keyboard fa-fw" aria-hidden="true"></i> 总计约 4.42K 字</p></div><h2 class="group-title"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i>最近更新</h2><article class="archive-item">
+          <a href="/documentation/2bc07a1c-250727-170600/" class="archive-item-link">02-Oracle</a>
+          <span class="archive-item-date" title='2025-07-27 17:13:07'>更新于 07-27</span>
+        </article><h2 class="group-title"><i class="fa-regular fa-calendar fa-fw me-1" aria-hidden="true"></i>2025</h2><article class="archive-item">
+            <a href="/documentation/2bc07a1c-250727-170600/" class="archive-item-link">02-Oracle</a>
+            <span class="archive-item-date" title='2025-07-27 17:06:00'>07-27</span>
+          </article></div></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.148.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.20">FixIt</a>
+        </div><div class="footer-line statistics"><span class="site-time" title='网站运行中……'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="ms-1 d-none">博客已运行 </span><span class="run-times ms-1">网站运行中……</span></span></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='总访客数'><i class="fa-regular fa-user fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='总访问量'><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--progress-h: 3px;--bg-progress: #14a331;--bg-progress-dark: #1e90ff;"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="https://vercount.one/js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/search.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"siteTime":"2025-07-12T00:00:00+08:00","version":"v0.3.20"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>
