@@ -39,5 +39,5 @@ Comment like this:
 ---
 
 > 作者: <no value>  
-> URL: http://localhost:1313/friends/  
+> URL: https://lbwyjll.github.io/myblog/friends/  
 
