@@ -242,5 +242,5 @@ hugo
 ---
 
 > 作者: [仰泳的鱼](http://localhost:1313)  
-> URL: http://localhost:1313/posts/0870e5ba-250722-222009/  
+> URL: https://lbwyjll.github.io/posts/0870e5ba-250722-222009/  
 

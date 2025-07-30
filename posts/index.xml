@@ -8,7 +8,42 @@
     <language>zh-CN</language>
     <managingEditor>http://cccc.com (仰泳的鱼)</managingEditor>
     <webMaster>http://cccc.com (仰泳的鱼)</webMaster>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sat, 26 Jul 2025 22:45:26 +0800</lastBuildDate>
     <atom:link href="https://lbwyjll.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>second_post</title>
+      <link>https://lbwyjll.github.io/posts/0870e5ba-250722-222009/</link>
+      <pubDate>Tue, 22 Jul 2025 22:20:09 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/posts/0870e5ba-250722-222009/</guid>
+      <description>&lt;p&gt;学习在几分钟内创建一个 Hugo &lt;strong&gt;FixIt&lt;/strong&gt; 站点。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>模板测试01</title>
+      <link>https://lbwyjll.github.io/posts/036ecf4d-250722-214654/</link>
+      <pubDate>Tue, 22 Jul 2025 21:46:54 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/posts/036ecf4d-250722-214654/</guid>
+      <description>&lt;p&gt;50 字内摘要&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>模板测试02</title>
+      <link>https://lbwyjll.github.io/posts/d0fdf5a7-250722-214654/</link>
+      <pubDate>Tue, 22 Jul 2025 21:46:54 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/posts/d0fdf5a7-250722-214654/</guid>
+      <description>&lt;p&gt;50 字内摘要&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>first_post</title>
+      <link>https://lbwyjll.github.io/posts/8bd8d7a7-250721-200413/</link>
+      <pubDate>Mon, 21 Jul 2025 20:04:13 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/posts/8bd8d7a7-250721-200413/</guid>
+      <description>&lt;p&gt;学习在几分钟内创建一个 Hugo &lt;strong&gt;FixIt&lt;/strong&gt; 站点。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>my-first-post</title>
+      <link>https://lbwyjll.github.io/posts/d21803a3-250721-200413/</link>
+      <pubDate>Mon, 21 Jul 2025 20:04:13 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/posts/d21803a3-250721-200413/</guid>
+      <description>&lt;p&gt;学习在几分钟内创建一个 Hugo &lt;strong&gt;FixIt&lt;/strong&gt; 站点。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

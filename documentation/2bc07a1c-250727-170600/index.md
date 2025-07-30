@@ -2063,5 +2063,5 @@ delete from 表 a
 ---
 
 > 作者: [仰泳的鱼](http://localhost:1313)  
-> URL: http://localhost:1313/documentation/2bc07a1c-250727-170600/  
+> URL: https://lbwyjll.github.io/documentation/2bc07a1c-250727-170600/  
 

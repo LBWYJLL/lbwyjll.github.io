@@ -8,7 +8,14 @@
     <language>zh-CN</language>
     <managingEditor>http://cccc.com (仰泳的鱼)</managingEditor>
     <webMaster>http://cccc.com (仰泳的鱼)</webMaster>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 17:13:07 +0800</lastBuildDate>
     <atom:link href="https://lbwyjll.github.io/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>02-Oracle</title>
+      <link>https://lbwyjll.github.io/documentation/2bc07a1c-250727-170600/</link>
+      <pubDate>Sun, 27 Jul 2025 17:06:00 +0800</pubDate><author>http://cccc.com (仰泳的鱼)</author>
+      <guid>https://lbwyjll.github.io/documentation/2bc07a1c-250727-170600/</guid>
+      <description>&lt;p&gt;oracl 使用&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
