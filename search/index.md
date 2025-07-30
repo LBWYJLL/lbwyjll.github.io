@@ -5,5 +5,5 @@
 ---
 
 > 作者: <no value>  
-> URL: https://lbwyjll.github.io/search/  
+> URL: https://blog.lbwyjll.xyz/search/  
 

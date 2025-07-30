@@ -25,5 +25,5 @@
 ---
 
 > 作者: [仰泳的鱼](http://localhost:1313)  
-> URL: https://lbwyjll.github.io/posts/d0fdf5a7-250722-214654/  
+> URL: https://blog.lbwyjll.xyz/posts/d0fdf5a7-250722-214654/  
 

@@ -51,5 +51,5 @@ echo 445566
 ---
 
 > 作者: [仰泳的鱼](http://localhost:1313)  
-> URL: https://lbwyjll.github.io/posts/036ecf4d-250722-214654/  
+> URL: https://blog.lbwyjll.xyz/posts/036ecf4d-250722-214654/  
 

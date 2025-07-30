@@ -199,5 +199,5 @@ hugo
 ---
 
 > 作者: [仰泳的鱼](http://localhost:1313)  
-> URL: https://lbwyjll.github.io/posts/d21803a3-250721-200413/  
+> URL: https://blog.lbwyjll.xyz/posts/d21803a3-250721-200413/  
 
