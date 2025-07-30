@@ -1,22 +1,22 @@
 [
   
     {
-      "id": "/myblog/friends/",
+      "id": "/friends/",
       "title": "Index",
       "summary": " Base info nickname: Lruihao avatar: https://lruihao.cn/images/avatar.jpg url: https://lruihao.cn description: Lruihao\u0026rsquo;s Note Friendly Reminder Comment like this:\n",
       "content": " Base info nickname: Lruihao avatar: https://lruihao.cn/images/avatar.jpg url: https://lruihao.cn description: Lruihao\u0026rsquo;s Note Friendly Reminder Comment like this:\n1 2 3 4 5 6 ```yaml - nickname: \u0026lt;your nickname\u0026gt; avatar: \u0026lt;your avatar\u0026gt; url: \u0026lt;your site link\u0026gt; description: \u0026lt;description of your site\u0026gt; ``` Notice If you want to exchange link, please leave a comment as the above format. (personal non-commercial blogs / websites only) :(fa-solid fa-exclamation-triangle): Website failure, stop maintenance and improper content may be unlinked! Those websites that do not respect other people\u0026rsquo;s labor achievements, reprint without source, or malicious acts, please do not come to exchange. ",
-      "url": "/myblog/friends/",
+      "url": "/friends/",
       "tags": [
         
       ]
     }
   ,
     {
-      "id": "/myblog/search/",
+      "id": "/search/",
       "title": "搜索",
       "summary": "",
       "content": "",
-      "url": "/myblog/search/",
+      "url": "/search/",
       "tags": [
         
       ]

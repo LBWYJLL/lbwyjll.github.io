@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>仰泳的鱼</title>
-    <link>https://lbwyjll.github.io/myblog/</link>
+    <link>https://lbwyjll.github.io/</link>
     <description>仰泳的鱼</description>
     <generator>Hugo 0.148.1 &amp; FixIt v0.3.20</generator>
     <language>zh-CN</language>
     <managingEditor>http://cccc.com (仰泳的鱼)</managingEditor>
     <webMaster>http://cccc.com (仰泳的鱼)</webMaster>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://lbwyjll.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lbwyjll.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
